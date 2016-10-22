@@ -26,7 +26,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		guard CGImageDestinationFinalize(dest) else {
 			fatalError("cannot save screenshot");
 		}
-		// Insert code here to initialize your application
 
 		NSApp.terminate(self)
 	}
